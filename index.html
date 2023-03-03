@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Import CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Add the logo of the company -->
+    <link rel="icon" href="images/Farmer-logo.jpg" />
+    <title>Farmer Lifeline</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Farmer Lifeline</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="learn.html">Learn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Showcase Section -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Keep your crops healthy.</h1>
+          <p>Detect crop Pests and Diseases before time</p>
+          <a href="orders.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Request a Demo</h2>
+          <form>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats section -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to your one stop shop for all the solutions to your farm
+          problems.
+        </h3>
+
+        <div class="gtid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-camera fa-3x"></i>
+            <h3>300,000</h3>
+            <p class="text-secondary">Devices Installed</p>
+          </div>
+          <div>
+            <i class="fas fa-seedling fa-3x"></i>
+            <h3>45000Tonnes</h3>
+            <p class="text-secondary">Crop improvement</p>
+          </div>
+          <div>
+            <i class="fas fa-money-check-dollar fa-3x"></i>
+            <h3>Kshs. 7.9 Billion</h3>
+            <p class="text-secondary">Profits</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
